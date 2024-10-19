@@ -1,0 +1,50 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(122, 39, 130);
+    color: aliceblue;
+}
+
+.titlebar {
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin: 50px; 
+    gap: 20px; 
+}
+
+.container div {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 10px; 
+   ;
+}
+
+.container div h2 {
+    color: rgb(238, 237, 186);
+}
+
+.container div img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 5px; 
+    display: inline;
+    margin: 0 auto; 
+    text-align: center;
+}
